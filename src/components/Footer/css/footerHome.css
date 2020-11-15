@@ -1,0 +1,65 @@
+.footerContainer{
+  position: relative;
+  width: 100%;
+  height: 15vh;
+  background-color: rgb(19, 19, 19);
+}
+
+.positionRedes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.iconsCenter ul li{
+  list-style: none;
+  display: inline-block;
+  font-size: 2.5em;
+  margin: 0 10px;
+  padding: 10px;
+}
+
+.iconsCenter ul li a{
+  color: #333333;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.3s all ease-in;
+}
+
+.iconsCenter ul li a:hover.listFacebook{
+  color: rgb(0, 25, 170);
+}
+
+.iconsCenter ul li a:hover.listTwitter{
+  color: rgb(0, 140, 255);
+}
+
+.iconsCenter ul li a:hover.listInstagram{
+  color: rgb(255, 123, 0);
+}
+
+.iconsCenter ul li a:hover.listLinkedin{
+  color: rgb(1, 118, 214);
+}
+
+.iconsCenter ul li a:hover.listGooglePlus{
+  color: rgb(207, 2, 2);
+}
+
+.copyRightFooter{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(17, 17, 17);
+  position: relative;
+  width: 100%;
+  height: 4vh;
+}
+
+.copyRightFooter span{
+  margin: auto 10px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}

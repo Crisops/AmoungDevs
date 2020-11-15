@@ -1,0 +1,43 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 15vh;
+}
+
+.logoImg{
+  position: relative;
+  margin-left: 50px;
+  width: 50%;
+}
+
+.logo{
+  width: 100%;
+  color: #fff;
+  font-family: 'Cooper';
+  font-weight: bold;
+}
+
+
+.menuContent{
+  position: relative;
+  top: 0;
+  right: 50px;
+}
+
+.menuContent ul li{
+  display: inline-block;
+  margin: 0 15px;
+  font-size: 1.1em;
+  font-family: 'Poopins',sans-serif;
+  color: #fff;
+  padding: 20px;
+  font-weight: 700;
+}
+
+.menuContent ul li a{
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+}

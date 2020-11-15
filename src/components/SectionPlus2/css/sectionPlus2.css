@@ -1,0 +1,114 @@
+.containerInfoExtra2Plus{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(19, 19, 19);
+}
+
+.gridSection2Plus{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20em;
+}
+
+.contentSection2ContainerPlus{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.containerImagenSection2Plus{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-right: 30px;
+}
+
+.logoImagenSection2Plus{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+
+
+.containerInfoSection2Plus{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+
+.infoSection2Plus{
+  position: relative;
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  margin-left: 30px;
+}
+
+.titleInformation2Plus{
+  color: #fff;
+  font-size: 3em;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  opacity: 0;
+}
+
+.descriptionInformation2Plus{
+  color: #fff;
+  font-size: 14pt;
+  font-family: 'Poopins', sans-serif;
+  line-height: 40px;
+  opacity: 0;
+}
+
+@keyframes entradaImageSectionPlus2{
+
+  from{
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+
+}
+
+@keyframes entradaTitleGame{
+
+  from{
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  to{
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+
+}
+
+@keyframes entradaDesGame{
+
+  from{
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+
+}

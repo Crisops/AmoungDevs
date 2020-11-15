@@ -1,0 +1,103 @@
+.containerSection{
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 25em;
+}
+
+.positionMessage{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.messageGroup{
+  position: relative;
+  top: -80px;
+  width: 70%;
+  height: 30%;
+}
+
+.titlePresentation{
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 5em;
+  text-align: center;
+}
+
+.descriptionPresentation{
+  color: #fff;
+  font-size: 16pt;
+  text-align: center;
+  line-height: 30px;
+}
+
+.logoTeam{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.logoImagen{
+  position: relative;
+  top: -80px;
+  width: 90%;
+  height: 90%;
+  opacity: 0;
+}
+
+.descriptionPresentation{
+  animation: entradaDescripcion 5s ease 0s forwards;
+}
+.titlePresentation{
+  animation: entradaTitulo 5s ease 0s forwards;
+}
+
+.logoImagen{
+  animation: entradaTeam 5s ease 2s forwards;
+}
+
+
+@keyframes entradaDescripcion{
+  from{
+    transform: translateX(-55px);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+
+@keyframes entradaTitulo{
+  from{
+    transform: translateY(-75px);
+    opacity: 0;
+  }
+  to{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes entradaTeam{
+  from{
+    transform: translateY(105px);
+    opacity: 0;
+  }
+  to{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+
+
+

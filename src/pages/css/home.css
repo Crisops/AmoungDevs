@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(../imgHome/bg.png);
+  background-color: rgb(22, 22, 22);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 115vh;
+}
