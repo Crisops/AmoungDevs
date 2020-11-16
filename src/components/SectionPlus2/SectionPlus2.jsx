@@ -1,30 +1,28 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import logo from "./img/imagen1.png"
 import "./css/sectionPlus2.css"
 
 const SectionPlus2 = () => {
 
-  window.addEventListener('scroll', function(){
 
-    let animacion = document.getElementById('animadoImgSectionPlus2');
-    let animacionTitleGame = document.getElementById('animadoTitleGame');
-    let animacionDesGame = document.getElementById('animadoDesGame');
-    let sizeTamanoWindow = window.innerHeight;
-    let topImage = animacion.getBoundingClientRect().bottom
-    let numeroTopImage = Math.floor(topImage)
+  useEffect(() => {
+    window.addEventListener('scroll', function(){
 
-    if (numeroTopImage < sizeTamanoWindow) {
-      animacion.style.animation = 'entradaImageSectionPlus2 5s ease 0s forwards';
-      animacionTitleGame.style.animation = 'entradaTitleGame 5s ease 1s forwards';
-      animacionDesGame.style.animation = 'entradaDesGame 5s ease 1s forwards';
-    }
-
-  })
-
-
-
-
-
+      let animacion = document.getElementById('animadoImgSectionPlus2');
+      let animacionTitleGame = document.getElementById('animadoTitleGame');
+      let animacionDesGame = document.getElementById('animadoDesGame');
+      let sizeTamanoWindow = window.innerHeight;
+      let topImage = animacion.getBoundingClientRect().bottom
+      let numeroTopImage = Math.floor(topImage)
+  
+      if (numeroTopImage < sizeTamanoWindow) {
+        animacion.style.animation = 'entradaImageSectionPlus2 5s ease 0s forwards';
+        animacionTitleGame.style.animation = 'entradaTitleGame 5s ease 1s forwards';
+        animacionDesGame.style.animation = 'entradaDesGame 5s ease 1s forwards';
+      }
+  
+    })
+  }, [])
 
   return (
     <section className="containerInfoExtra2Plus">

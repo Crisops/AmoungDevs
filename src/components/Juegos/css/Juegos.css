@@ -1,0 +1,70 @@
+.containerInfoExtraJuegos{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(22, 22, 22);
+}
+
+
+.gridSection2Juegos{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20em;
+}
+
+.contentSection2ContainerJuegos{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.containerImagenSection2Juegos{
+  position: relative;
+  width: 100%;
+  height: 80%;
+  margin-left: 20px;
+}
+
+.logoImagenSection2Juegos{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.containerInfoSection2Juegos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+
+.infoSection2Juegos{
+  position: relative;
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  margin-right: 30px;
+}
+
+.titleInformation2Juegos{
+  color: #fff;
+  font-size: 3em;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.descriptionInformation2Juegos{
+  color: #fff;
+  font-size: 14pt;
+  font-family: 'Poopins', sans-serif;
+  line-height: 40px;
+}

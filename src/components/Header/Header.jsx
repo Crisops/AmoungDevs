@@ -1,7 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
 import "./header.css";
-import logo from "./img/logoAmoug.png";
 
 const Header = () => {
   return(
@@ -19,7 +18,7 @@ const Header = () => {
             </li>
             <li>
               <Link to="/Game">
-                <span>Game</span>
+                Game
               </Link> 
             </li>
             <li>

@@ -1,0 +1,84 @@
+html{
+  scroll-behavior: smooth;
+}
+
+
+.containerOptionsGame{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(22, 22, 22);
+  width: 100%;
+  top: 0px;
+  z-index: 1;
+}
+
+.positionOpstionsGame ul li{
+  display: inline-block;
+  font-size: 1vw;
+  font-family: 'Poppins', sans-serif;
+  margin: 10px;
+}
+
+.positionOpstionsGame ul li a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.optionNavGame1:hover{
+  color: rgb(150, 0, 173);
+}
+
+.optionNavGame2:hover{
+  color: rgb(233, 159, 0);
+}
+
+.optionNavGame3:hover{
+  color: rgb(233, 159, 0);
+}
+
+.optionNavGame4:hover{
+  color: rgb(0, 95, 13);
+}
+
+
+.optionNavGame5:hover{
+  color: rgb(74, 189, 255);
+}
+
+.optionNavGame6:hover{
+  color: rgb(230, 255, 2);
+}
+
+.optionNavGame7:hover{
+  color: rgb(104, 71, 29);
+}
+
+.optionNavGame8:hover{
+  color: rgb(37, 117, 37);
+}
+
+.optionNavGame9:hover{
+  color: rgb(231, 0, 0);
+}
+
+.optionNavGame10:hover{
+  color: rgb(0, 238, 255);
+}
+
+.optionNavGame11:hover{
+  color: rgb(133, 152, 255);
+}
+
+.optionNavGame12:hover{
+  color: rgb(212, 205, 108);
+}
+
+.optionNavGame13:hover{
+  color: rgb(219, 210, 76);
+}
+
+.optionNavGame14:hover{
+  color: rgb(90, 90, 90);
+}

@@ -1,12 +1,12 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import "./css/sectionPlus.css"
 import logo from "./img/image2.png"
+import ButtonsNav from "../ButtonsNav/ButtonsNav"
 
 const SectionPlus = () => {
 
-
-
-  window.addEventListener('scroll', function(){
+ useEffect(() => {
+    window.addEventListener('scroll', function(){
     let animacionImagen = document.getElementById('animadoImg')
     let animacionTitle = document.getElementById('animadoTitleNav')
     let animacionDes = document.getElementById('animadoDesNav')
@@ -21,6 +21,10 @@ const SectionPlus = () => {
     }
     
   })
+
+ }, [])
+
+  
 
 
 
@@ -43,6 +47,7 @@ const SectionPlus = () => {
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled</p>
+            <ButtonsNav/>
             </div>
           </div>
         </div>
