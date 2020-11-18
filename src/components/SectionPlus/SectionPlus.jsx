@@ -6,7 +6,7 @@ import ButtonsNav from "../ButtonsNav/ButtonsNav"
 const SectionPlus = () => {
 
  useEffect(() => {
-    window.addEventListener('scroll', function(){
+  function efecto(){
     let animacionImagen = document.getElementById('animadoImg')
     let animacionTitle = document.getElementById('animadoTitleNav')
     let animacionDes = document.getElementById('animadoDesNav')
@@ -19,8 +19,12 @@ const SectionPlus = () => {
       animacionTitle.style.animation =  'entradaTituloSection2 5s ease 2s forwards'
       animacionDes.style.animation =  'entradaDescriptionSection2 5s ease 3s forwards'
     }
-    
-  })
+  }
+  window.addEventListener('scroll', efecto)
+
+  return () =>{
+    window.removeEventListener('scroll',efecto)
+  }
 
  }, [])
 

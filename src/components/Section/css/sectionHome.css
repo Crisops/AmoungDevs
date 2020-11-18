@@ -222,4 +222,23 @@
 
 
 
+@media (max-width: 1366px){
+  .containerSection{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3em;
+  }
+  .titlePresentation{
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 7em;
+    text-align: center;
+  }
+}
+
+
+
+
 
